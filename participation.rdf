@@ -103,14 +103,14 @@
 	<rdf:Property rdf:about="#holder_of">
 		<rdfs:comment>specifies roles that an agent holds</rdfs:comment>
 		<rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-		<rdf:range rdf:resource="#Role"/>
+		<rdfs:range rdf:resource="#Role"/>
 		<owl:inverseOf rdf:resource="#holder"/>
 		<rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/participation/schema#"/>
 	</rdf:Property>
 
 	<rdf:Property rdf:about="#holder">
 		<rdfs:comment>specifies the holder of a role</rdfs:comment>
-		<rdf:domain rdf:resource="#Role"/>
+		<rdfs:domain rdf:resource="#Role"/>
 		<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
 		<owl:inverseOf rdf:resource="#holder_of"/>
 		<rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/participation/schema#"/>
