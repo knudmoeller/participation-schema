@@ -85,7 +85,7 @@
 	</rdf:Property>
 	
 	<rdf:Property rdf:about="#role_at">
-		<rdfs:label xml:lang="en">role</rdfs:label>
+		<rdfs:label xml:lang="en">role at</rdfs:label>
 		<rdfs:comment>connects groups that have a role to the instance of that role</rdfs:comment>
 		<rdfs:range>
 			<owl:Class>
@@ -96,7 +96,7 @@
 			</owl:Class>
 		</rdfs:range>		
 		<rdfs:domain rdf:resource="#Role"/>
-		<owl:inverseOf rdf:resource="#role_at"/>
+		<owl:inverseOf rdf:resource="#role"/>
 		<rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/participation/schema#"/>
 	</rdf:Property>
 	
