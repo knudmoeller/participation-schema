@@ -120,7 +120,7 @@
 		<rdfs:label xml:lang="en">startDate</rdfs:label>
 		<rdfs:comment>The date on which this agent started performing this role</rdfs:comment>
 		<rdfs:domain rdf:resource="http://purl.org/vocab/participation/schema#Role"/>
-		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Date"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
 		<rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/participation/schema#"/>
 	</owl:DatatypeProperty>
 
@@ -128,7 +128,7 @@
 		<rdfs:label xml:lang="en">endDate</rdfs:label>
 		<rdfs:comment>The date on which this agent stopped performing this role</rdfs:comment>
 		<rdfs:domain rdf:resource="http://purl.org/vocab/participation/schema#Role"/>
-		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Date"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
 		<rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/participation/schema#"/>
 	</owl:DatatypeProperty>
 
